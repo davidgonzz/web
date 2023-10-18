@@ -66,10 +66,15 @@
             </div>
             <div class="p-3">
                 <div id="formularios">
+                     
+                
                     <h1 class="text-center">FORMULARIOS</h1>
                     <form action="kk.php" method="get" class="form-login">
-                        <h3>Formulario de Login</h3>
+                        <h3>FORMULARIO DE LOGIN</h3>
+
+                        <div class="ancho">
                         <fieldset>
+                            
                             <legend>
                                 Login
                             </legend>
@@ -79,10 +84,12 @@
                             
 
                         </fieldset>
+                        </div>
 
                     </form>
                     <form action="kk.php" method="get" class="form-registro">
-                        <h3>Formulario registro</h3>
+                        <h3>FORMULARIO DE REGISTRO</h3>
+                    <div class="ancho">
                         <fieldset>
                             <legend>
                                 Registro
@@ -93,7 +100,7 @@
                             <p><label for="">input type password</label>
                                 <input type="password" name="clave" id="" placeholder="Password">
                             </p>
-                            <p>Fecha Nacimiento: (Lista simple -> tag select)
+                            <p>Fecha Nacimiento: 
                                 <select name="dia" id="">
                                     <option value="1">1</option>
                                     <option value="1">2</option>
@@ -109,21 +116,21 @@
                                     <option value="2001">2001</option>
                                     <option value="2002">2002</option>
                                 </select>
-                            <p>Comentarios (tag textarea):<br><textarea name="comentarios" id="" cols="50"
+                            <p>Comentarios:<br><textarea name="comentarios" id="" cols="50"
                                     rows="4"></textarea></p>
-                            <p>Aficiones: (tag input type checkbox)<br>
+                            <p>Aficiones: <br>
                                 <input type="checkbox" name="cine" id=""> Cine <br>
                                 <input type="checkbox" name="deportes" id=""> Deportes <br>
                                 <input type="checkbox" name="lectura" id=""> Lectura <br>
                                 <input type="checkbox" name="viajar" id=""> Viajar <br>
                             </p>
-                            <p>Estado civil: (tag input type radio)</p>
+                            <p>Estado civil: </p>
                             <input type="radio" name="ec" id=""> Casado/a <br>
                             <input type="radio" name="ec" id=""> Soltero/a <br>
                             <input type="radio" name="ec" id=""> Viudo/a <br>
                             <input type="radio" name="ec" id=""> Otros <br>
                             </p>
-                            <p>Provincia: (tag select multiple)<br></p>
+                            <p>Provincia: <br></p>
                             <select name="provincia" id="" multiple size="5">
                                 <option value="1">Albacete</option>
                                 <option value="1">Ciudad Real</option>
@@ -131,13 +138,15 @@
                                 <option value="1">Guadalajara</option>
                                 <option value="1">Toledo</option>
                             </select>
-                            <p>Foto: (tag input type file) <input type="file" name="foto" id=""></p>
+                            <p>Foto:  <input type="file" name="foto" id=""></p>
                             <p><input type="submit" value="Enviar" class="btn btn-blue"></p>
                         </fieldset>
+                    </div>
                     </form>
                     <div class="cb"></div>
-                    <h3 class="text-center">FORMULARIO CON ELEMENTOS HTML5:</h3>
+                    <h3>FORMULARIO CON ELEMENTOS HTML5:</h3>
                     <form action="kk.php" method="post" class="form-html5">
+                    <div class="ancho">
                         <fieldset>
                             <legend>Inputs HTML5</legend>
                             <p><label for="">Color:</label> <input type="color" name="color" id=""></p>
@@ -157,6 +166,7 @@
                             <p><label for="">Week:</label> <input type="week" name="week" id=""></p>
                             <p><input type="submit" value="Aceptar" id="" class="btn btn-red"></p>
                         </fieldset>
+                    </div>
                     </form>
                     
                     
