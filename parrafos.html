@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/Azarquiel 0.27.15.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="py-3">
+                <h1 class="text-center bg-naranja-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="home">
+                    
+                    
+                    <h1 class="text-center">PARRAFOS</h1>
+                    <p>Para poner la letra roja utilizamos <span>PALABRAS EN ROJO</span></p>
+                    <h2><strong>ENCABEZADO DE H1 A H6</strong></h2>
+                    <h1>Encabezado h1</h1>
+                    <h2>Encabezado h2</h2>
+                    <h3>Encabezado h3</h3>
+                    <h4>Encabezado h4</h4>
+                    <h5>Encabezado h5</h5>
+                    <h6>Encabezado h6</h6> 
+                    <p>Para texto en cursiva <em>PALABRAS EN CURSIVA</em></p>
+                    <p>Para texto en negrita <strong>PALABRAS EN NEGRITA</strong></p>
+                    <P>Para colocar algo superior a x<sup>2x+4y</sup></P>
+                    <P>Para colocar algo por debajo a x<sub>16</sub></P>
+                    <div class= "bg-orange"> <em>Prueba 1 de poner texto</em>  <strong>subrayado</strong></div>
+                    <div class= "bg-green"> <em>Prueba 2 de poner texto</em> <strong>subrayado</strong></div>
+                    <p></p>
+                    
+
+                </div>                          
+                  
+            </div>
+        
+        </main>
+        <footer>
+            <h1 class="bg-naranja-o text-center text-white py-3">&copy; S1DAM</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
