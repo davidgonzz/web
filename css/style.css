@@ -258,6 +258,44 @@ text-red{
     background-color: rgb(161,252,253);
 }
 
+form.form-login {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+}
+form.form-registro {
+    width: 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: #e2fafa;
+}
+form.form-html5 legend {
+    background-color: rgb(85, 147, 223);
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+.ancho{
+    width: 75%;
+
+}
 table {
     width: 60%;
     text-align: center;
@@ -276,10 +314,10 @@ table {
     height: "240";
     
 }
-.ancho{
-    width: 20%;
-
+.cb {
+    clear: both;
 }
+
 
 
 
